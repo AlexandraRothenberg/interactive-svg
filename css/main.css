@@ -21,9 +21,9 @@ html {
 }
 
 @keyframes reye {
-  
+
   0% { transform: translateX(10px); }
-  
+
   100% { transform: translateX(-10px); }
 }
 
@@ -32,9 +32,9 @@ html {
 }
 
 @keyframes leye {
-  
+
   0% { transform: translateX(10px); }
-  
+
   100% { transform: translateX(-10px); }
 }
 
@@ -56,4 +56,27 @@ html {
 .bear:hover #right-ear {
 
   transform: translateY(-10px);
+}
+
+.st0 {
+  fill: #673200;
+}
+
+.st1 {
+  fill: #ffaaca;
+}
+
+.st2 {
+
+  fill: #c65b00;
+}
+
+.st3 {
+
+  fill: none;
+  stroke: #000;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
 }
