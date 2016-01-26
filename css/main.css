@@ -21,7 +21,9 @@ html {
 }
 
 @keyframes reye {
+  
   0% { transform: translateX(10px); }
+  
   100% { transform: translateX(-10px); }
 }
 
@@ -30,7 +32,9 @@ html {
 }
 
 @keyframes leye {
+  
   0% { transform: translateX(10px); }
+  
   100% { transform: translateX(-10px); }
 }
 
@@ -44,12 +48,12 @@ html {
   transition: all 500ms linear;
 }
 
-.bear:hover #left-ear{
+.bear:hover #left-ear {
 
   transform: translateY(-10px);
 }
 
-.bear:hover #right-ear{
+.bear:hover #right-ear {
 
   transform: translateY(-10px);
 }
